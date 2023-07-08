@@ -1,4 +1,10 @@
 /*  font use  */
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -14,6 +20,9 @@ nav{
 /* header related style */
 .hrader-class{
     background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 
@@ -56,10 +65,24 @@ color: white;
 
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 40px 35px 30px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner-picture {
-    width: 380px;
+    width: 450px;
+}
+
+.banner-title{
+    margin-bottom: 0;
+    
+}
+
+.banner-heading{
+    margin: 5px;
+}
+
+.bannr-content{
+    max-width: 500px;
 }
