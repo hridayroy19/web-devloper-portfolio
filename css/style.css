@@ -9,7 +9,14 @@ nav{
      display: flex; 
      justify-content: space-between;
      align-items: center;
+     margin: 0px 200px;
 }
+/* header related style */
+.hrader-class{
+    background-color:#FFF8F3;
+}
+
+
 .nav-title{
     color: #181818;
     font-size: 45px;
@@ -46,3 +53,13 @@ color: white;
         list-style: none;
         margin-right: 50px;
     }
+
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-picture {
+    width: 380px;
+}
